@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "AMD",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "lib": ["es6", "DOM", "es2017"],
+      "outFile": "./script/bundle.js",
+      "target": "es5",
+      "sourceMap": true,
+      "noEmitOnError": true,
+      "strict": true,
+    },
+    "include": ["./src/**/*"], //tot ce include, se concatineaza impreuna si se duc in outFile
+    "exclude": ["node_modules", "**/*.spec.ts"],
+    
+  }
